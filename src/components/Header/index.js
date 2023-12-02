@@ -20,11 +20,13 @@ import {
   SupplyItem,
   SupplyItemDetail,
   SupplyList,
+  SupplyLists,
   MiddleHead,
   Name,
   NameHead,
   NamePara,
   Icon,
+  IconSpecial,
   BackButton,
   ApproveButton,
   ImageItemName,
@@ -84,35 +86,59 @@ const Header = () => (
           <Line />
         </SupplyList>
         <SupplyListContainer>
-          <SupplyList>
+          <SupplyLists>
             <Supply>
               <SupplyItem>Total</SupplyItem>
               <SupplyItemDetail>$13,376,56</SupplyItemDetail>
             </Supply>
-          </SupplyList>
-          <SupplyList>
+          </SupplyLists>
+          <SupplyLists>
             <Supply>
               <SupplyItem>Category</SupplyItem>
               <SupplyItemIcon>
                 <IconContainer>
-                  <FaBowlRice /> <FaPizzaSlice /> <FaMobileButton />
+                  <IconSpecial>
+                    <FaBowlRice />
+                  </IconSpecial>
+                  <IconSpecial>
+                    <FaPizzaSlice />
+                  </IconSpecial>
+                  <IconSpecial>
+                    <FaMobileButton />
+                  </IconSpecial>
                 </IconContainer>
                 <IconContainer>
-                  <FaBowlRice /> <FaPizzaSlice /> <FaMobileButton />
+                  <IconSpecial>
+                    <FaBowlRice />
+                  </IconSpecial>
+                  <IconSpecial>
+                    <FaPizzaSlice />
+                  </IconSpecial>
+                  <IconSpecial>
+                    <FaMobileButton />
+                  </IconSpecial>
                 </IconContainer>
                 <IconContainer>
-                  <FaBowlRice /> <FaPizzaSlice /> <FaMobileButton />
+                  <IconSpecial>
+                    <FaBowlRice />
+                  </IconSpecial>
+                  <IconSpecial>
+                    <FaPizzaSlice />
+                  </IconSpecial>
+                  <IconSpecial>
+                    <FaMobileButton />
+                  </IconSpecial>
                 </IconContainer>
               </SupplyItemIcon>
             </Supply>
-          </SupplyList>
-          <SupplyList>
+          </SupplyLists>
+          <SupplyLists>
             <Supply>
               <SupplyItem>Department</SupplyItem>
               <SupplyItemDetail>300-444-665</SupplyItemDetail>
             </Supply>
-            <Line />
-          </SupplyList>
+          </SupplyLists>
+          <Line />
         </SupplyListContainer>
         <SupplyList>
           <Supply>

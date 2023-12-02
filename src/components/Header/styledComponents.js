@@ -16,15 +16,10 @@ export const TopHead = styled.div`
 `
 export const BottomHead = styled.div`
   display: flex;
-  flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   background-color: transparent;
   border: 1px solid grey;
-  margin-top: 15px;
-  margin-left: 55px;
-  max-width: 90%;
-  max-height: 40%;
   border-radius: 5px;
 `
 export const ImageContainer = styled.div`
@@ -41,9 +36,7 @@ export const ImgPara = styled.h1`
 `
 export const SupplyList = styled.div`
   display: flex;
-  justify-content: center;
   align-items: center;
-  margin: 0px;
 `
 export const SupplyItem = styled.p`
   color: grey;
@@ -67,7 +60,10 @@ export const SupplyItemIcon = styled.div`
 `
 export const IconContainer = styled.div`
   display: flex;
-  margin: 9px;
+`
+export const IconSpecial = styled.p`
+  padding: 3px;
+  margin: 0px;
 `
 
 export const ImagePara = styled.div`
@@ -143,8 +139,7 @@ export const ImageItemName = styled.p`
 `
 export const Line = styled.hr`
   transform: rotate(90deg);
-  width: 20vh;
-  margin: 0px;
+  width: 80px;
 `
 export const Supply = styled.div`
   display: flex;
@@ -154,5 +149,9 @@ export const Supply = styled.div`
 `
 export const SupplyListContainer = styled.div`
   display: flex;
-  padding: 5px;
+  justify-content: center;
+  align-items: center;
+`
+export const SupplyLists = styled.div`
+  margin: 5px;
 `
